@@ -1,0 +1,108 @@
+/* -------------------------SELECTORS TAGS------------------------------- */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+h1{
+    align-self: center;
+    padding: 0 30px;
+}
+textarea{
+    resize: none;
+    overflow: scroll;
+}
+
+/* -------------------------CLASS TAGS------------------------------- */
+.heading{
+    display: flex;
+    background-color: #FFE61B;
+    color: #F7F7F7;
+    height: 80px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+}
+.btn{
+    position: fixed;
+    top: 7rem;
+    right: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 140px;
+}
+.edit,.delete{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.icons{
+    width: 30px;
+}
+.icons:hover{
+    width: 35px;
+}
+
+.hidden{
+    display: hidden;
+}
+.note{
+    width: 265px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.operation{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    position: relative;
+    left: 185px;
+}
+.main{
+    display: none;
+}
+
+
+/* -------------------------ID TAGS------------------------------- */
+#add{
+    background-color: #FFB72B;
+    font-size: medium;
+    color: #F7F7F7;
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 20%;
+}
+#add:hover{
+    background-color: #FFE61B;
+}
+
+/* --------------------------------media quaries---------------------  */
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    #add{
+        background-color: #F7F7F7;
+        color: #FFB72B;
+        font-size: 0.8rem;
+        position: relative;
+        padding: 0;
+        left: 80px;
+        bottom: 80px;
+        padding: 0 5px;
+    }
+    #add:hover{
+        background-color: #F7F7F7;
+    }
+    .btn{
+    
+    }
+    .heading{
+        font-size: 0.8rem;
+    }
+}
