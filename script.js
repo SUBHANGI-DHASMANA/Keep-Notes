@@ -1,5 +1,6 @@
 const addButton = document.querySelector('#add');
 
+
 const updateLSData=()=>{
     const testAreaData = document.querySelectorAll('textarea');
     const notes = [];
